@@ -1,0 +1,55 @@
+﻿@model IEnumerable<IMS.Models.Entity.SupplierInfo>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<partial name="_Notification" />
+
+<!-- Add CSS style to make the background grey -->
+<style>
+    body {
+        background-color: #F5F0FF;
+    }
+</style>
+
+
+<div class="row col-12">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(p => p.SupplierName) </th>
+                <th> @Html.DisplayNameFor(p => p.ContactPerson) </th>
+                <th> @Html.DisplayNameFor(p => p.PhoneNumber) </th>
+                <th> @Html.DisplayNameFor(p => p.Address) </th>
+                <th> @Html.DisplayNameFor(p => p.Email) </th>
+                <th> @Html.DisplayNameFor(p => p.IsActive) </th>
+                <th> Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var items in Model)
+            {
+                <tr>
+                    <td> @items.SupplierName </td>
+                    <td> @items.ContactPerson </td>
+                    <td> @items.PhoneNumber </td>
+                    <td> @items.Address </td>
+                    <td> @items.Email </td>
+                    <td> @items.IsActive </td>
+
+                    <td>
+                        <a class="btn btn-primary " asp-action="AddEdit" asp-route-id="@items.Id">Edit</a>
+                        <a class="btn btn-danger" asp-action="Delete" onclick="return confirm('Are You Sure About That!!!')" asp-route-id="@items.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="row">
+    <div class="col-12">
+        <a class="btn btn-primary float-start" asp-action="AddEdit">AddNew</a>
+    </div>
+
+</div>

@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "5MLvkD27ER2/tZEVqIgdP0/pLVdB+aA0xzo6ohnTDr8=",
+  "Source": "IMS.Utility",
+  "BasePath": "_content/IMS.Utility",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IMS.Utility\\wwwroot",
+      "Source": "IMS.Utility",
+      "ContentRoot": "D:\\ww\\IMS.Utility\\wwwroot\\",
+      "BasePath": "_content/IMS.Utility",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\ww\\IMS.Utility\\wwwroot\\background.png",
+      "SourceId": "IMS.Utility",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ww\\IMS.Utility\\wwwroot\\",
+      "BasePath": "_content/IMS.Utility",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "D:\\ww\\IMS.Utility\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "IMS.Utility",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ww\\IMS.Utility\\wwwroot\\",
+      "BasePath": "_content/IMS.Utility",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}

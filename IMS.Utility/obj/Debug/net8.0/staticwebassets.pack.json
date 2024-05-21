@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ww\\IMS.Utility\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "D:\\ww\\IMS.Utility\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IMS.Utility.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.IMS.Utility.props",
+      "PackagePath": "build\\IMS.Utility.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.IMS.Utility.props",
+      "PackagePath": "buildMultiTargeting\\IMS.Utility.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.IMS.Utility.props",
+      "PackagePath": "buildTransitive\\IMS.Utility.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
