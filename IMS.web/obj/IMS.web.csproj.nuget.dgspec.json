@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ww\\IMS.web\\IMS.web.csproj": {}
+    "E:\\IMSMain\\IMS.web\\IMS.web.csproj": {}
   },
   "projects": {
-    "D:\\ww\\IMS.Infrastructure\\IMS.Infrastructure.csproj": {
+    "E:\\IMSMain\\IMS.Infrastructure\\IMS.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ww\\IMS.Infrastructure\\IMS.Infrastructure.csproj",
+        "projectUniqueName": "E:\\IMSMain\\IMS.Infrastructure\\IMS.Infrastructure.csproj",
         "projectName": "IMS.Infrastructure",
-        "projectPath": "D:\\ww\\IMS.Infrastructure\\IMS.Infrastructure.csproj",
+        "projectPath": "E:\\IMSMain\\IMS.Infrastructure\\IMS.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\ww\\IMS.Infrastructure\\obj\\",
+        "outputPath": "E:\\IMSMain\\IMS.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ww\\IMS.Models\\IMS.Models.csproj": {
-                "projectPath": "D:\\ww\\IMS.Models\\IMS.Models.csproj"
+              "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj": {
+                "projectPath": "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "D:\\ww\\IMS.Models\\IMS.Models.csproj": {
+    "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ww\\IMS.Models\\IMS.Models.csproj",
+        "projectUniqueName": "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj",
         "projectName": "IMS.Models",
-        "projectPath": "D:\\ww\\IMS.Models\\IMS.Models.csproj",
+        "projectPath": "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\ww\\IMS.Models\\obj\\",
+        "outputPath": "E:\\IMSMain\\IMS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -137,6 +137,10 @@
               "target": "Package",
               "version": "[8.0.4, )"
             },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.4, )"
@@ -172,14 +176,14 @@
         }
       }
     },
-    "D:\\ww\\IMS.Utility\\IMS.Utility.csproj": {
+    "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ww\\IMS.Utility\\IMS.Utility.csproj",
+        "projectUniqueName": "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj",
         "projectName": "IMS.Utility",
-        "projectPath": "D:\\ww\\IMS.Utility\\IMS.Utility.csproj",
+        "projectPath": "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\ww\\IMS.Utility\\obj\\",
+        "outputPath": "E:\\IMSMain\\IMS.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -252,14 +256,14 @@
         }
       }
     },
-    "D:\\ww\\IMS.web\\IMS.web.csproj": {
+    "E:\\IMSMain\\IMS.web\\IMS.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ww\\IMS.web\\IMS.web.csproj",
+        "projectUniqueName": "E:\\IMSMain\\IMS.web\\IMS.web.csproj",
         "projectName": "IMS.web",
-        "projectPath": "D:\\ww\\IMS.web\\IMS.web.csproj",
+        "projectPath": "E:\\IMSMain\\IMS.web\\IMS.web.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\ww\\IMS.web\\obj\\",
+        "outputPath": "E:\\IMSMain\\IMS.web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -276,14 +280,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\ww\\IMS.Infrastructure\\IMS.Infrastructure.csproj": {
-                "projectPath": "D:\\ww\\IMS.Infrastructure\\IMS.Infrastructure.csproj"
+              "E:\\IMSMain\\IMS.Infrastructure\\IMS.Infrastructure.csproj": {
+                "projectPath": "E:\\IMSMain\\IMS.Infrastructure\\IMS.Infrastructure.csproj"
               },
-              "D:\\ww\\IMS.Models\\IMS.Models.csproj": {
-                "projectPath": "D:\\ww\\IMS.Models\\IMS.Models.csproj"
+              "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj": {
+                "projectPath": "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj"
               },
-              "D:\\ww\\IMS.Utility\\IMS.Utility.csproj": {
-                "projectPath": "D:\\ww\\IMS.Utility\\IMS.Utility.csproj"
+              "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj": {
+                "projectPath": "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj"
               }
             }
           }

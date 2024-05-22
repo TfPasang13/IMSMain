@@ -10,11 +10,10 @@ namespace IMS.Models.Entity
     {
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }
-        public string ImgageUrl { get; set; }
+        public string ImageUrl { get; set; }
         public int CatagoryInfoId { get; set; }
         public int UnitInfoId { get; set; }
-        public int StoreInfoId { get; set; }
-        public string ImageUrl { get; set; }    
+        public int StoreInfoId { get; set; }   
         public bool IsActive { get; set; }
         public DateTime CreatedDate { get; set; }
         public string CreatedBy { get; set; }

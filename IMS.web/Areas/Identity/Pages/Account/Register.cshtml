@@ -56,20 +56,6 @@
                 <label asp-for="Input.UserRoleId">User Role</label>
                 <span asp-validation-for="Input.UserRoleId" class="text-danger"></span>
             </div>
-            
-
-            <div class="form-floating mb-3">
-                <select asp-for="Input.UserRoleId" class="form-control">
-                    <option selected disabled>Choose</option>
-                    <option value="ADMIN">Admin</option>
-                    <option value="COUNTER">Counter</option>
-                    <option value="STORE">Store</option>
-                    <option value="PUBLIC">Public</option>
-                </select>
-                <label asp-for="Input.UserRoleId"></label>
-                <span asp-validation-for="Input.UserRoleId" class="text-danger"></span>
-            </div>
-
 
             <div class="form-floating mb-3">
                 <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />

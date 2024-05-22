@@ -2,10 +2,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System.Configuration;
 
 namespace IMS.web.Data
 {
-    public class AppDbContext:IdentityDbContext
+    public class AppDbContext:IdentityDbContext<AppUser>
     {
 
         public AppDbContext(DbContextOptions<AppDbContext> dbcontext) 

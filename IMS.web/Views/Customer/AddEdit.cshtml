@@ -1,0 +1,80 @@
+﻿@model IMS.Models.Entity.CustomerInfo
+@{
+    // Set browser tab title to "Update Store" if Model has an ID, otherwise set it to "Add Store"
+    ViewData["Title"] = Model.Id > 0 ? "Update Customer Information" : "Add Customer Information";
+}
+@* <partial name="_Notification" /> *@
+
+<!-- Add CSS style to make the background grey -->
+<style>
+    body {
+        background-color: #f5f7fd; /* Set background color to grey */
+    }
+</style>
+
+
+@if (Model.Id > 0)
+{
+    <h1><b>Edit Customer Information Info</b></h1>
+}
+else
+{
+    <h1><b>Create Customer Information Info</b></h1>
+}
+
+<form method="post" asp-action="AddEdit">
+    <div class="row">
+        <div class="col-8">
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-8">
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-8">
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-8">
+            <div class="form-group">
+                <label asp-for="PanNo" class="control-label"></label>
+                <input asp-for="PanNo" class="form-control" />
+                <span asp-validation-for="PanNo" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <br />
+
+
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-8">
+                <button type="submit" class="btn btn-primary float-start ">@((Model.Id > 0) ? "Update" : "Create")</button>
+                <a asp-action="Index" class="btn btn-secondary float-end" asp-controller="Customer">Back to List</a>
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

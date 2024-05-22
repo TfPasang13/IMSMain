@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ww\\IMS.Utility\\IMS.Utility.csproj": {}
+    "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj": {}
   },
   "projects": {
-    "D:\\ww\\IMS.Utility\\IMS.Utility.csproj": {
+    "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ww\\IMS.Utility\\IMS.Utility.csproj",
+        "projectUniqueName": "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj",
         "projectName": "IMS.Utility",
-        "projectPath": "D:\\ww\\IMS.Utility\\IMS.Utility.csproj",
+        "projectPath": "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\ww\\IMS.Utility\\obj\\",
+        "outputPath": "E:\\IMSMain\\IMS.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

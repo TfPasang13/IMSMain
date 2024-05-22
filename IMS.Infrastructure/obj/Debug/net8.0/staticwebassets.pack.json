@@ -1,11 +1,11 @@
 {
   "Files": [
     {
-      "Id": "D:\\ww\\IMS.Infrastructure\\wwwroot\\background.png",
+      "Id": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },
     {
-      "Id": "D:\\ww\\IMS.Infrastructure\\wwwroot\\exampleJsInterop.js",
+      "Id": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\exampleJsInterop.js",
       "PackagePath": "staticwebassets\\exampleJsInterop.js"
     },
     {

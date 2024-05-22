@@ -28,14 +28,27 @@ builder.Services.AddDbContext<IMSDbContext>(options =>
 
 
 //builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDbContext>();
+
+// Configure Identity
 builder.Services.AddIdentity<AppUser, IdentityRole>().AddDefaultTokenProviders()
     .AddEntityFrameworkStores<AppDbContext>();
 
+
+//configure Email sender service
 builder.Services.AddSingleton<IEmailSender, IMS.Infrastructure.Services.EmailSender>();
 
+//configure repository service
 builder.Services.AddTransient(typeof(ICrudService<>),typeof (CrudService<>));
 builder.Services.AddTransient < IRawSqlRepository, RawSqlRepository >();
 
+// Configure application cookie settings
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Identity/Account/Login";
+    options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+});
+
+//build the app
 var app = builder.Build();
 
 using (var scope=app.Services.CreateScope())
@@ -53,7 +66,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+app.UseAuthentication(); // Add authentication middleware
+app.UseAuthorization(); // Add authorization middleware
 
 app.MapRazorPages();
 

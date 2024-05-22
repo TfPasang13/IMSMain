@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "P7oQEEFzTkOT06STiZBuH68Y/wdcv21x9mL9IPx8ly8=",
+  "Hash": "P4At8i2Jox5b37qsUOOXVOEXqCa9qKn/EIUIpoxIpr0=",
   "Source": "IMS.web",
   "BasePath": "_content/IMS.web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\ww\\IMS.Infrastructure\\IMS.Infrastructure.csproj",
+      "Identity": "E:\\IMSMain\\IMS.Infrastructure\\IMS.Infrastructure.csproj",
       "Version": 2,
       "Source": "IMS.Infrastructure",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "D:\\ww\\IMS.Models\\IMS.Models.csproj",
+      "Identity": "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj",
       "Version": 2,
       "Source": "IMS.Models",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -29,7 +29,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     },
     {
-      "Identity": "D:\\ww\\IMS.Utility\\IMS.Utility.csproj",
+      "Identity": "E:\\IMSMain\\IMS.Utility\\IMS.Utility.csproj",
       "Version": 2,
       "Source": "IMS.Utility",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -44,28 +44,28 @@
     {
       "Name": "IMS.Infrastructure\\wwwroot",
       "Source": "IMS.Infrastructure",
-      "ContentRoot": "D:\\ww\\IMS.Infrastructure\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\",
       "BasePath": "_content/IMS.Infrastructure",
       "Pattern": "**"
     },
     {
       "Name": "IMS.Models\\wwwroot",
       "Source": "IMS.Models",
-      "ContentRoot": "D:\\ww\\IMS.Models\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Models\\wwwroot\\",
       "BasePath": "_content/IMS.Models",
       "Pattern": "**"
     },
     {
       "Name": "IMS.Utility\\wwwroot",
       "Source": "IMS.Utility",
-      "ContentRoot": "D:\\ww\\IMS.Utility\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Utility\\wwwroot\\",
       "BasePath": "_content/IMS.Utility",
       "Pattern": "**"
     },
     {
       "Name": "IMS.web\\wwwroot",
       "Source": "IMS.web",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "Pattern": "**"
     }
@@ -1212,10 +1212,10 @@
       "OriginalItemSpec": "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.4\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ww\\IMS.Infrastructure\\wwwroot\\background.png",
+      "Identity": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\background.png",
       "SourceId": "IMS.Infrastructure",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ww\\IMS.Infrastructure\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\",
       "BasePath": "_content/IMS.Infrastructure",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -1231,10 +1231,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\ww\\IMS.Infrastructure\\wwwroot\\exampleJsInterop.js",
+      "Identity": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\exampleJsInterop.js",
       "SourceId": "IMS.Infrastructure",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ww\\IMS.Infrastructure\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\",
       "BasePath": "_content/IMS.Infrastructure",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
@@ -1250,10 +1250,10 @@
       "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.Models\\wwwroot\\background.png",
+      "Identity": "E:\\IMSMain\\IMS.Models\\wwwroot\\background.png",
       "SourceId": "IMS.Models",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ww\\IMS.Models\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Models\\wwwroot\\",
       "BasePath": "_content/IMS.Models",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -1269,10 +1269,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\ww\\IMS.Models\\wwwroot\\exampleJsInterop.js",
+      "Identity": "E:\\IMSMain\\IMS.Models\\wwwroot\\exampleJsInterop.js",
       "SourceId": "IMS.Models",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ww\\IMS.Models\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Models\\wwwroot\\",
       "BasePath": "_content/IMS.Models",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
@@ -1288,10 +1288,10 @@
       "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.Utility\\wwwroot\\background.png",
+      "Identity": "E:\\IMSMain\\IMS.Utility\\wwwroot\\background.png",
       "SourceId": "IMS.Utility",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ww\\IMS.Utility\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Utility\\wwwroot\\",
       "BasePath": "_content/IMS.Utility",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -1307,10 +1307,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\ww\\IMS.Utility\\wwwroot\\exampleJsInterop.js",
+      "Identity": "E:\\IMSMain\\IMS.Utility\\wwwroot\\exampleJsInterop.js",
       "SourceId": "IMS.Utility",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ww\\IMS.Utility\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Utility\\wwwroot\\",
       "BasePath": "_content/IMS.Utility",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IMS.web.styles.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IMS.web.styles.css",
       "SourceId": "IMS.web",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ww\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "IMS.web.styles.css",
       "AssetKind": "All",
@@ -1342,13 +1342,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ww\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IMS.web.styles.css"
+      "OriginalItemSpec": "E:\\IMSMain\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\IMS.web.styles.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IMS.web.bundle.scp.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IMS.web.bundle.scp.css",
       "SourceId": "IMS.web",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ww\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "IMS.web.bundle.scp.css",
       "AssetKind": "All",
@@ -1361,13 +1361,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ww\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IMS.web.bundle.scp.css"
+      "OriginalItemSpec": "E:\\IMSMain\\IMS.web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\IMS.web.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\css\\site.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\css\\site.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1383,10 +1383,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\favicon.ico",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\favicon.ico",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1402,10 +1402,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\js\\site.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\js\\site.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1421,10 +1421,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1440,10 +1440,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1459,10 +1459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1478,10 +1478,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1497,10 +1497,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1516,10 +1516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1535,10 +1535,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1554,10 +1554,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1573,10 +1573,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1611,10 +1611,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1630,10 +1630,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1668,10 +1668,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1687,10 +1687,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1706,10 +1706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1725,10 +1725,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1744,10 +1744,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1763,10 +1763,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1782,10 +1782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1801,10 +1801,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1820,10 +1820,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1839,10 +1839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1858,10 +1858,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1877,10 +1877,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1896,10 +1896,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1915,10 +1915,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1934,10 +1934,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1953,10 +1953,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1991,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2010,10 +2010,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2029,10 +2029,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2048,10 +2048,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2067,10 +2067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2086,10 +2086,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2105,10 +2105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2124,10 +2124,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2143,10 +2143,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2162,10 +2162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2181,10 +2181,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2200,10 +2200,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2219,10 +2219,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2238,10 +2238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2257,10 +2257,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2276,10 +2276,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2314,10 +2314,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2333,10 +2333,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2352,10 +2352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2371,10 +2371,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2390,10 +2390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2409,10 +2409,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2428,10 +2428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2447,10 +2447,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2466,10 +2466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2485,10 +2485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\IMSMain\\IMS.web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "IMS.web",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.web\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.web\\wwwroot\\",
       "BasePath": "_content/IMS.web",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

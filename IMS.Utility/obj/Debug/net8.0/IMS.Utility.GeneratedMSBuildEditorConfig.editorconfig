@@ -9,15 +9,15 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = IMS.Utility
 build_property.RootNamespace = IMS.Utility
-build_property.ProjectDir = D:\ww\IMS.Utility\
+build_property.ProjectDir = E:\IMSMain\IMS.Utility\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ww\IMS.Utility
+build_property.MSBuildProjectDirectory = E:\IMSMain\IMS.Utility
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ww/IMS.Utility/_Imports.razor]
+[E:/IMSMain/IMS.Utility/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

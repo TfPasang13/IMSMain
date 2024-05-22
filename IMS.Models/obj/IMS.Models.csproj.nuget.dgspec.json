@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ww\\IMS.Models\\IMS.Models.csproj": {}
+    "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj": {}
   },
   "projects": {
-    "D:\\ww\\IMS.Models\\IMS.Models.csproj": {
+    "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ww\\IMS.Models\\IMS.Models.csproj",
+        "projectUniqueName": "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj",
         "projectName": "IMS.Models",
-        "projectPath": "D:\\ww\\IMS.Models\\IMS.Models.csproj",
+        "projectPath": "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\ww\\IMS.Models\\obj\\",
+        "outputPath": "E:\\IMSMain\\IMS.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,10 @@
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
               "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",

@@ -36,14 +36,42 @@ else
     <div class="row">
         <div class="col-8">
             <div class="form-group">
-                <label asp-for="CatagoryDescription" class="control-label"></label>
-                <input asp-for="CatagoryDescription" class="form-control" />
-                <span asp-validation-for="CatagoryDescription" class="text-danger"></span>
+                <label asp-for="ContactPerson" class="control-label"></label>
+                <input asp-for="ContactPerson" class="form-control" />
+                <span asp-validation-for="ContactPerson" class="text-danger"></span>
             </div>
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-8">
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col-8">
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-8">
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
 
     <div class="form-group">
         <div class="form-check">
@@ -61,7 +89,7 @@ else
         <div class="row">
             <div class="col-8">
                 <button type="submit" class="btn btn-primary float-start ">@((Model.Id > 0) ? "Update" : "Create")</button>
-                <a asp-action="Index" class="btn btn-secondary float-end" asp-controller="Catagory">Back to List</a>
+                <a asp-action="Index" class="btn btn-secondary float-end" asp-controller="Supplier">Back to List</a>
             </div>
         </div>
     </div>

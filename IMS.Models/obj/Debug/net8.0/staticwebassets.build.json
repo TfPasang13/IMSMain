@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vSIcD3Df3QVZNiEvCWnIpGseuBKbCGgmSm22PlI1X/M=",
+  "Hash": "X4XR09UXvJmBto6U0tavmJDoKpBzI/CzqeTpfJKhOC8=",
   "Source": "IMS.Models",
   "BasePath": "_content/IMS.Models",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "IMS.Models\\wwwroot",
       "Source": "IMS.Models",
-      "ContentRoot": "D:\\ww\\IMS.Models\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Models\\wwwroot\\",
       "BasePath": "_content/IMS.Models",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ww\\IMS.Models\\wwwroot\\background.png",
+      "Identity": "E:\\IMSMain\\IMS.Models\\wwwroot\\background.png",
       "SourceId": "IMS.Models",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.Models\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Models\\wwwroot\\",
       "BasePath": "_content/IMS.Models",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\ww\\IMS.Models\\wwwroot\\exampleJsInterop.js",
+      "Identity": "E:\\IMSMain\\IMS.Models\\wwwroot\\exampleJsInterop.js",
       "SourceId": "IMS.Models",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.Models\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Models\\wwwroot\\",
       "BasePath": "_content/IMS.Models",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",

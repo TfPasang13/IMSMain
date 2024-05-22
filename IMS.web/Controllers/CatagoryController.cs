@@ -81,6 +81,14 @@ namespace IMS.web.Controllers
             TempData["error"] = "Please input Valid Data";
             return RedirectToAction(nameof(AddEdit));
         }
-      
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var catagoryInfo = await _categoryInfo.GetAsync(id);
+            _categoryInfo.Delete(catagoryInfo);
+            TempData["error"] = "Data Deleted Successfully";
+            return RedirectToAction("Index");
+        }
+
     }
 }

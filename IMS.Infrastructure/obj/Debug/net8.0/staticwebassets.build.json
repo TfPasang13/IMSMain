@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "V3T1T9luOn4UBEMOY2bH2B6R9pxmDVjG8JohTQz0aww=",
+  "Hash": "GqYfY5HZYZMTwPBs3jP4vYJS0nKH4bDMxx73ACgeZv0=",
   "Source": "IMS.Infrastructure",
   "BasePath": "_content/IMS.Infrastructure",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\ww\\IMS.Models\\IMS.Models.csproj",
+      "Identity": "E:\\IMSMain\\IMS.Models\\IMS.Models.csproj",
       "Version": 2,
       "Source": "IMS.Models",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,14 +22,14 @@
     {
       "Name": "IMS.Infrastructure\\wwwroot",
       "Source": "IMS.Infrastructure",
-      "ContentRoot": "D:\\ww\\IMS.Infrastructure\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\",
       "BasePath": "_content/IMS.Infrastructure",
       "Pattern": "**"
     },
     {
       "Name": "IMS.Models\\wwwroot",
       "Source": "IMS.Models",
-      "ContentRoot": "D:\\ww\\IMS.Models\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Models\\wwwroot\\",
       "BasePath": "_content/IMS.Models",
       "Pattern": "**"
     }
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.4\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ww\\IMS.Infrastructure\\wwwroot\\background.png",
+      "Identity": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\background.png",
       "SourceId": "IMS.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.Infrastructure\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\",
       "BasePath": "_content/IMS.Infrastructure",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\ww\\IMS.Infrastructure\\wwwroot\\exampleJsInterop.js",
+      "Identity": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\exampleJsInterop.js",
       "SourceId": "IMS.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ww\\IMS.Infrastructure\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Infrastructure\\wwwroot\\",
       "BasePath": "_content/IMS.Infrastructure",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
     },
     {
-      "Identity": "D:\\ww\\IMS.Models\\wwwroot\\background.png",
+      "Identity": "E:\\IMSMain\\IMS.Models\\wwwroot\\background.png",
       "SourceId": "IMS.Models",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ww\\IMS.Models\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Models\\wwwroot\\",
       "BasePath": "_content/IMS.Models",
       "RelativePath": "background.png",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\background.png"
     },
     {
-      "Identity": "D:\\ww\\IMS.Models\\wwwroot\\exampleJsInterop.js",
+      "Identity": "E:\\IMSMain\\IMS.Models\\wwwroot\\exampleJsInterop.js",
       "SourceId": "IMS.Models",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ww\\IMS.Models\\wwwroot\\",
+      "ContentRoot": "E:\\IMSMain\\IMS.Models\\wwwroot\\",
       "BasePath": "_content/IMS.Models",
       "RelativePath": "exampleJsInterop.js",
       "AssetKind": "All",

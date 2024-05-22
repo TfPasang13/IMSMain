@@ -1,0 +1,50 @@
+﻿@model IEnumerable<IMS.Models.Entity.CustomerInfo>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<partial name="_Notification" />
+
+<!-- Add CSS style to make the background grey -->
+<style>
+    body {
+        background-color: #F5F0FF;
+    }
+</style>
+
+
+<div class="row col-12">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(p => p.CustomerName) </th>
+                <th> @Html.DisplayNameFor(p => p.Email) </th>
+                <th> @Html.DisplayNameFor(p => p.PhoneNumber) </th>
+                <th> @Html.DisplayNameFor(p => p.PanNo) </th>
+                <th> Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var items in Model)
+            {
+                <tr>
+                    <td> @items.CustomerName </td>
+                    <td> @items.Email </td>
+                    <td> @items.PhoneNumber </td>
+                    <td> @items.PanNo </td>
+
+                    <td>
+                        <a class="btn btn-primary " asp-action="AddEdit" asp-route-id="@items.Id">Edit</a>                    
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="row">
+    <div class="col-12">
+        <a class="btn btn-primary float-start" asp-action="AddEdit">AddNew</a>
+    </div>
+
+</div>
