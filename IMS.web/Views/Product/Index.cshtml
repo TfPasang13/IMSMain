@@ -3,9 +3,6 @@
     ViewData["Title"] = "Index";
 }
 
-
-<partial name="_Notification" />
-
 <!-- Add CSS style to make the background grey -->
 <style>
     body {
@@ -18,9 +15,10 @@
     <table class="table table-bordered">
         <thead>
             <tr>
+                <th>@Html.DisplayNameFor(p => p.CatagoryInfoId)</th>
                 <th>@Html.DisplayNameFor(p => p.ProductName) </th>
-                <th> @Html.DisplayNameFor(p => p.ProductDescription) </th>
-                <th> @Html.DisplayNameFor(p => p.ImageUrl) </th>
+                <th>@Html.DisplayNameFor(p => p.ProductDescription) </th>
+                <th>@Html.DisplayNameFor(p => p.UnitInfoId)</th>
                 <th> @Html.DisplayNameFor(p => p.IsActive) </th>
                 <th> Action</th>
             </tr>
@@ -29,14 +27,15 @@
             @foreach (var items in Model)
             {
                 <tr>
+                    <td> @items.CatagoryInfo.CatagoryName </td>
                     <td> @items.ProductName </td>
                     <td> @items.ProductDescription </td>
-                    <td> @items.ImageUrl </td>
+                    <td> @items.UnitInfo.UnitName </td>
                     <td> @items.IsActive </td>
 
                     <td>
                         <a class="btn btn-primary " asp-action="AddEdit" asp-route-id="@items.Id">Edit</a>
-                        <a class="btn btn-danger" asp-action="Delete" onclick="return confirm('Are You Sure About That!!!')" asp-route-id="@items.Id">Delete</a>
+                       @*  <a class="btn btn-danger" asp-action="Delete" onclick="return confirm('Are You Sure About That!!!')" asp-route-id="@items.Id">Delete</a> *@
                     </td>
                 </tr>
             }

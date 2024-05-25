@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,19 +10,38 @@ namespace IMS.Models.Entity
 {
     public class ProductRateInfo:BaseEntity
     {
+        [Required]
         public int CatagoryInfoId { get; set; }
+        [Required]
         public int ProductInfoId { get; set; }
+        [Required]
         public int StoreInfoId { get; set; }
+        [Required]
         public int RackInfoId { get; set; }
+        [Required]
         public int SupplierInfoId { get; set; }
+        [NotMapped]
+        public int UnitInfoId { get; set; }
+        [Required]
+        [Range(0, float.MaxValue)]
         public float CostPrice { get; set; }
+        [Required]
+        [Range(0, float.MaxValue)]
         public float SellingPrice { get; set; }
+        [Required]
+        [Range(0, float.MaxValue)]
         public float Quantity { get; set; }
+        [Range(0, float.MaxValue)]
         public float SoldQuantity { get; set; }
+        [Range(0, float.MaxValue)]
         public float RemainingQuantity { get; set; }
+        [Required]
+        [Range(0, float.MaxValue)]
         public string BatchNo { get; set; }
+        [Required]
         public DateTime PurchasedDate { get; set; }
-        public DateTime ExpiryDate { get; set; }
+        [Required]
+        public DateTime? ExpiryDate { get; set; }
         public bool IsActive { get; set; }
         public DateTime CreatedDate { get; set; }
         public string CreatedBy { get; set; }

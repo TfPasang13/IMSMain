@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUser> SignInManager
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -25,22 +27,34 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                        @*  <li class="nav-item">
-                        <a class="nav-link text-light" asp-area="" asp-controller="StoreInfo" asp-action="Index">Store Information</a>
-                        </li> *@
+                        @if (!SignInManager.IsSignedIn(User) || !User.IsInRole("ADMIN"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="StoreInfo" asp-action="Index">Stores</a>
+                            </li>
+                        }
+                        @if (SignInManager.IsSignedIn(User)&& User.IsInRole("ADMIN"))
+                        {
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Stores
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" asp-area="" asp-controller="StoreInfo" asp-action="Index"><b>Store Information</b></a></li>
-                                <li><a class="dropdown-item" ><b>Contact</b></a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item"><b>AboutUs</b></a></li>
-                            </ul>
-                        </li>
 
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Stores
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="StoreInfo" asp-action="Index"><b>Store Information</b></a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Product" asp-action="Index"><b>Products</b></a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Catagory" asp-action="Index"><b>Catagories</b></a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Customer" asp-action="Index"><b>Customers</b></a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="UnitInfo" asp-action="Index"><b>Units</b></a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Rack" asp-action="Index"><b>Rack</b></a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="Supplier" asp-action="Index"><b>Suppliers</b></a></li>
+                                    <li><a class="dropdown-item" asp-area="" asp-controller="ProductRate" asp-action="Index"><b>Purchases</b></a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item"><b>AboutUs</b></a></li>
+                                </ul>
+                            </li>
+                        }
                     </ul>
                     <partial name="_LoginPartial"></partial>
                 </div>
@@ -49,6 +63,7 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+            <partial name="_Notification" />
             @RenderBody()
         </main>
     </div>

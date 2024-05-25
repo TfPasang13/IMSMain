@@ -26,7 +26,7 @@ namespace IMS.Infrastructure.EntityConfiguration
            .HasMaxLength(200)
            .IsUnicode(true);
 
-            builder.Property(e => e.ImgageUrl)
+            builder.Property(e => e.ImageUrl)
            .HasMaxLength(200)
            .IsUnicode(true);
 

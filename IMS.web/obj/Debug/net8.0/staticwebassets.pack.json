@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\IMS.web.bundle.scp.css"
     },
     {
+      "Id": "E:\\IMSMain\\IMS.web\\wwwroot\\ProductImage\\085bf56e-4edf-4fa6-b9a7-8660f3ce4ec3_Carrot.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\085bf56e-4edf-4fa6-b9a7-8660f3ce4ec3_Carrot.jpg"
+    },
+    {
+      "Id": "E:\\IMSMain\\IMS.web\\wwwroot\\ProductImage\\0947c0ed-b4d0-41d6-bcb8-7b5f83f1fa84_Banana.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\0947c0ed-b4d0-41d6-bcb8-7b5f83f1fa84_Banana.jpg"
+    },
+    {
+      "Id": "E:\\IMSMain\\IMS.web\\wwwroot\\ProductImage\\0d46d59b-86dd-4bf7-8436-b3c38b60fac0_Apple.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\0d46d59b-86dd-4bf7-8436-b3c38b60fac0_Apple.jpg"
+    },
+    {
+      "Id": "E:\\IMSMain\\IMS.web\\wwwroot\\ProductImage\\5ef31752-923c-4bf2-a945-527f16167d75_Strawberry",
+      "PackagePath": "staticwebassets\\ProductImage"
+    },
+    {
+      "Id": "E:\\IMSMain\\IMS.web\\wwwroot\\ProductImage\\bb4ed4a1-3add-48db-acb0-136b1dd42efc_Apples.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\bb4ed4a1-3add-48db-acb0-136b1dd42efc_Apples.jpg"
+    },
+    {
       "Id": "E:\\IMSMain\\IMS.web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

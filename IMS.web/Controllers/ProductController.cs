@@ -14,13 +14,13 @@ namespace IMS.web.Controllers
         private readonly ICrudService<CatagoryInfo> _catagoryInfo;
         private readonly UserManager<AppUser> _userManager;
 
-        ProductController(ICrudService<ProductInfo> productInfo,
+        public ProductController(ICrudService<ProductInfo> productInfo,
             ICrudService<StoreInfo> storeInfo,
             ICrudService<UnitInfo> unitInfo,
             ICrudService<CatagoryInfo> catagoryInfo,
             UserManager<AppUser> userManager) 
         {
-            _productInfo = productInfo;
+            _productInfo = productInfo; 
             _storeInfo = storeInfo;
             _unitInfo = unitInfo;
             _catagoryInfo = catagoryInfo;
@@ -31,7 +31,10 @@ namespace IMS.web.Controllers
         {
             var userId = _userManager.GetUserId(HttpContext.User);
             var user = await _userManager.FindByIdAsync(userId);
-            var productInfo = await _catagoryInfo.GetAllAsync(p => p.StoreInfoId == user.StoreId);
+            ViewBag.CatagoryInfos = await _catagoryInfo.GetAllAsync(p => p.IsActive == true);
+            ViewBag.UnitInfos = await _unitInfo.GetAllAsync(p => p.IsActive == true);
+
+            var productInfo = await _productInfo.GetAllAsync(p => p.StoreInfoId == user.StoreId);
            
             return View(productInfo);
         }
@@ -39,6 +42,9 @@ namespace IMS.web.Controllers
         public async Task<IActionResult> AddEdit(int Id)
         {
             ProductInfo productInfo = new ProductInfo();
+            ViewBag.CategoryInfos = await _catagoryInfo.GetAllAsync(p => p.IsActive == true);
+            ViewBag.UnitInfos = await _unitInfo.GetAllAsync(p => p.IsActive == true);
+            productInfo.IsActive = true;
             if (Id > 0)
             {
                 productInfo = await _productInfo.GetAsync(Id);
@@ -48,32 +54,58 @@ namespace IMS.web.Controllers
         [HttpPost]
         public async Task<IActionResult> AddEdit(ProductInfo productInfo)
         {
+            ViewBag.CatagoryInfos = await _catagoryInfo.GetAllAsync(p => p.IsActive == true);
+            ViewBag.UnitInfos = await _unitInfo.GetAllAsync(p => p.IsActive == true);
             if (ModelState.IsValid)
             {
                 try
                 {
                     var userId = _userManager.GetUserId(HttpContext.User);
                     var user = await _userManager.FindByIdAsync(userId);
+
+                    if (productInfo.ImageFile != null)
+                    {
+                        string fileDirectory = $"wwwroot/ProductImage";
+
+                        if (!Directory.Exists(fileDirectory))
+                        {
+                            Directory.CreateDirectory(fileDirectory);
+                        }
+                        string uniqueFileName = Guid.NewGuid() + "_" + productInfo.ImageFile.FileName;
+                        string filePath = Path.Combine(Path.GetFullPath($"wwwroot/ProductImage"), uniqueFileName);
+
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await productInfo.ImageFile.CopyToAsync(fileStream);
+                            productInfo.ImageUrl = $"ProductImage/" + uniqueFileName;
+
+                        }
+
+                    }
+
                     if (productInfo.Id == 0)
                     {
                         productInfo.CreatedDate = DateTime.Now;
                         productInfo.CreatedBy = userId;
                         productInfo.StoreInfoId = user.StoreId;
-                        productInfo.UnitInfoId = user.UnitId;
                         await _productInfo.InsertAsync(productInfo);
 
                         TempData["success"] = "Data Added Successfully!";
                     }
                     else
                     {
-                        var OrgProductInfo = await _productInfo.GetAsync(productInfo.Id);
-                        OrgProductInfo.ProductName = productInfo.ProductName;
-                        OrgProductInfo.ProductDescription = productInfo.ProductDescription;
-                        OrgProductInfo.ImageUrl = productInfo.ImageUrl;
-                        OrgProductInfo.IsActive = productInfo.IsActive;
-                        OrgProductInfo.ModifiedDate = DateTime.Now;
-                        OrgProductInfo.ModifiedBy = userId;
-                        await _productInfo.UpdateAsync(OrgProductInfo);
+                        var OrgproductInfo = await _productInfo.GetAsync(productInfo.Id);
+                        OrgproductInfo.CatagoryInfoId = productInfo.CatagoryInfoId;
+                        OrgproductInfo.ProductName = productInfo.ProductName;
+                        OrgproductInfo.ProductDescription = productInfo.ProductDescription;
+                        OrgproductInfo.UnitInfoId = productInfo.UnitInfoId;
+
+                        if (productInfo.ImageFile != null)
+                        {
+                            OrgproductInfo.ImageUrl = productInfo.ImageUrl;
+                        }
+
+                        await _productInfo.UpdateAsync(OrgproductInfo);
                         TempData["success"] = "Data Updated Successfully";
                     }
                     return RedirectToAction(nameof(Index));
@@ -86,15 +118,6 @@ namespace IMS.web.Controllers
             }
             TempData["error"] = "Please input Valid Data";
             return RedirectToAction(nameof(AddEdit));
-        }
-
-
-        public async Task<IActionResult> Delete(int id)
-        {
-            var productInfo = await _productInfo.GetAsync(id);
-            _productInfo.Delete(productInfo);
-            TempData["error"] = "Data Deleted Successfully";
-            return RedirectToAction("Index");
         }
     }
 }

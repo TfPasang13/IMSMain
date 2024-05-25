@@ -22,9 +22,6 @@ namespace IMS.Infrastructure.EntityConfiguration
             builder.Property(e => e.CostPrice)
           .HasColumnType("float");
 
-            builder.Property(e => e.ModifiedDate)
-          .HasColumnType("datetime");
-
             builder.Property(e => e.SellingPrice)
           .HasColumnType("float");
 
